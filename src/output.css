@@ -610,16 +610,9 @@ video {
   margin-right: auto;
 }
 
-.ml-12 {
-  margin-left: 3rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
+.my-\[200px\] {
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 .mb-5 {
@@ -630,8 +623,32 @@ video {
   margin-bottom: 52px;
 }
 
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .mt-\[200px\] {
   margin-top: 200px;
+}
+
+.ml-\[15px\] {
+  margin-left: 15px;
 }
 
 .inline-block {
@@ -658,16 +675,16 @@ video {
   height: 50px;
 }
 
+.h-\[700px\] {
+  height: 700px;
+}
+
 .h-\[758px\] {
   height: 758px;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-\[225px\] {
-  height: 225px;
 }
 
 .w-\[1200px\] {
@@ -678,12 +695,20 @@ video {
   width: 177px;
 }
 
+.w-\[358px\] {
+  width: 358px;
+}
+
 .w-\[434px\] {
   width: 434px;
 }
 
-.w-\[358px\] {
-  width: 358px;
+.w-\[472px\] {
+  width: 472px;
+}
+
+.w-\[653px\] {
+  width: 653px;
 }
 
 .transform {
@@ -702,10 +727,6 @@ video {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -722,9 +743,67 @@ video {
   border-radius: 50px;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-tr-2xl {
+  border-top-right-radius: 1rem;
+}
+
+.rounded-tr-3xl {
+  border-top-right-radius: 1.5rem;
+}
+
+.rounded-tr-\[40px\] {
+  border-top-right-radius: 40px;
+}
+
+.rounded-tr-\[140px\] {
+  border-top-right-radius: 140px;
+}
+
+.rounded-tr-\[340px\] {
+  border-top-right-radius: 340px;
+}
+
+.rounded-bl-\[340px\] {
+  border-bottom-left-radius: 340px;
+}
+
+.rounded-bl-\[300px\] {
+  border-bottom-left-radius: 300px;
+}
+
+.rounded-tr-\[300px\] {
+  border-top-right-radius: 300px;
+}
+
+.rounded-bl-\[250px\] {
+  border-bottom-left-radius: 250px;
+}
+
+.rounded-tr-\[250px\] {
+  border-top-right-radius: 250px;
+}
+
 .bg-\[\#292F36\] {
   --tw-bg-opacity: 1;
   background-color: rgb(41 47 54 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F4F0EC\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 240 236 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .bg-slate-100 {
@@ -732,18 +811,12 @@ video {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.bg-orange-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
-}
-
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
-}
-
 .bg-\[url\(\'\/src\/images\/hero-bg\.png\'\)\] {
   background-image: url('/src/images/hero-bg.png');
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-3 {
@@ -769,12 +842,41 @@ video {
   padding-top: 27px;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
 .text-\[65px\] {
   font-size: 65px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -787,19 +889,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-\[25px\] {
-  font-size: 25px;
-}
-
-.text-\[22px\] {
-  font-size: 22px;
-}
-
 .font-normal {
   font-weight: 400;
 }
@@ -808,16 +897,36 @@ video {
   font-weight: 600;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-\[32px\] {
+  line-height: 32px;
+}
+
 .leading-\[33px\] {
   line-height: 33px;
+}
+
+.leading-\[35px\] {
+  line-height: 35px;
+}
+
+.leading-\[62px\] {
+  line-height: 62px;
 }
 
 .leading-\[70px\] {
   line-height: 70px;
 }
 
-.leading-\[32px\] {
-  line-height: 32px;
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-white {
