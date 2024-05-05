@@ -618,13 +618,26 @@ video {
   margin-right: auto;
 }
 
+.my-\[150px\] {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 .my-\[200px\] {
   margin-top: 200px;
   margin-bottom: 200px;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mb-\[48px\] {
+  margin-bottom: 48px;
 }
 
 .mb-\[52px\] {
@@ -643,12 +656,20 @@ video {
   margin-left: 15px;
 }
 
+.ml-\[23px\] {
+  margin-left: 23px;
+}
+
 .mt-11 {
   margin-top: 2.75rem;
 }
 
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-8 {
@@ -659,12 +680,12 @@ video {
   margin-top: 200px;
 }
 
-.ml-\[23px\] {
-  margin-left: 23px;
+.mt-\[93px\] {
+  margin-top: 93px;
 }
 
-.mb-\[48px\] {
-  margin-bottom: 48px;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .inline-block {
@@ -687,12 +708,48 @@ video {
   display: none;
 }
 
+.h-\[102px\] {
+  height: 102px;
+}
+
+.h-\[320px\] {
+  height: 320px;
+}
+
+.h-\[42px\] {
+  height: 42px;
+}
+
+.h-\[43px\] {
+  height: 43px;
+}
+
+.h-\[44px\] {
+  height: 44px;
+}
+
+.h-\[47px\] {
+  height: 47px;
+}
+
 .h-\[50px\] {
   height: 50px;
 }
 
+.h-\[550px\] {
+  height: 550px;
+}
+
+.h-\[680px\] {
+  height: 680px;
+}
+
 .h-\[700px\] {
   height: 700px;
+}
+
+.h-\[70px\] {
+  height: 70px;
 }
 
 .h-\[758px\] {
@@ -703,40 +760,68 @@ video {
   height: 100%;
 }
 
-.h-\[680px\] {
-  height: 680px;
+.h-\[570px\] {
+  height: 570px;
 }
 
-.h-\[340px\] {
-  height: 340px;
-}
-
-.h-\[650px\] {
-  height: 650px;
+.h-\[590px\] {
+  height: 590px;
 }
 
 .h-\[600px\] {
   height: 600px;
 }
 
-.h-\[300px\] {
-  height: 300px;
+.w-\[102px\] {
+  width: 102px;
 }
 
-.h-\[320px\] {
-  height: 320px;
+.w-\[1100px\] {
+  width: 1100px;
+}
+
+.w-\[1150px\] {
+  width: 1150px;
+}
+
+.w-\[117px\] {
+  width: 117px;
 }
 
 .w-\[1200px\] {
   width: 1200px;
 }
 
+.w-\[131px\] {
+  width: 131px;
+}
+
+.w-\[145px\] {
+  width: 145px;
+}
+
+.w-\[163px\] {
+  width: 163px;
+}
+
 .w-\[177px\] {
   width: 177px;
 }
 
+.w-\[217px\] {
+  width: 217px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
 .w-\[358px\] {
   width: 358px;
+}
+
+.w-\[370px\] {
+  width: 370px;
 }
 
 .w-\[434px\] {
@@ -747,20 +832,20 @@ video {
   width: 472px;
 }
 
+.w-\[535px\] {
+  width: 535px;
+}
+
 .w-\[653px\] {
   width: 653px;
 }
 
-.w-\[370px\] {
-  width: 370px;
+.w-\[70px\] {
+  width: 70px;
 }
 
-.w-\[1150px\] {
-  width: 1150px;
-}
-
-.w-\[300px\] {
-  width: 300px;
+.w-\[735px\] {
+  width: 735px;
 }
 
 .transform {
@@ -773,6 +858,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -795,16 +884,12 @@ video {
   border-radius: 50px;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
-.rounded-\[40px\] {
-  border-radius: 40px;
-}
-
 .rounded-\[60px\] {
   border-radius: 60px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-bl-\[250px\] {
@@ -839,20 +924,42 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/src\/images\/hero-bg\.png\'\)\] {
   background-image: url('/src/images/hero-bg.png');
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .p-5 {
   padding: 1.25rem;
 }
 
-.p-\[88px\] {
-  padding: 88px;
+.p-8 {
+  padding: 2rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.p-7 {
+  padding: 1.75rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-\[61px\] {
@@ -863,11 +970,6 @@ video {
 .py-\[27px\] {
   padding-top: 27px;
   padding-bottom: 27px;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pt-10 {
@@ -882,16 +984,16 @@ video {
   padding-top: 27px;
 }
 
-.pb-\[38px\] {
-  padding-bottom: 38px;
-}
-
 .pt-\[88px\] {
   padding-top: 88px;
 }
 
-.pb-\[45px\] {
-  padding-bottom: 45px;
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
 }
 
 .text-center {
@@ -959,6 +1061,18 @@ video {
 
 .leading-\[70px\] {
   line-height: 70px;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .tracking-widest {
