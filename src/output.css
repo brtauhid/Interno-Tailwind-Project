@@ -644,8 +644,8 @@ video {
   margin-bottom: 3.5rem;
 }
 
-.mb-44 {
-  margin-bottom: 11rem;
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mb-5 {
@@ -726,6 +726,10 @@ video {
 
 .mt-\[93px\] {
   margin-top: 93px;
+}
+
+.block {
+  display: block;
 }
 
 .inline-block {
@@ -1093,6 +1097,14 @@ video {
 
 .bg-\[url\(\'\/src\/images\/hero-bg\.png\'\)\] {
   background-image: url('/src/images/hero-bg.png');
+}
+
+.bg-\[url\(\'\/src\/images\/serviceBg\.jpg\'\)\] {
+  background-image: url('/src/images/serviceBg.jpg');
+}
+
+.bg-\[url\(\'\/src\/images\/single-service-bg\.png\'\)\] {
+  background-image: url('/src/images/single-service-bg.png');
 }
 
 .bg-cover {

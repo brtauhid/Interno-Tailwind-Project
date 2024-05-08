@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.masonry {
+        display: flex;
+        flex-wrap: wrap;
+        transition: 0.5s all ease; /* Transition effect for item re-arrangement */
+      }
+      
+      .item {
+        width: calc(33.33% - 20px);
+        margin: 10px;
+        transition: 0.5s all ease; /* Transition effect for item visibility */
+      }
+      
+      .filter-buttons {
+        margin-bottom: 20px;
+      }
+      
+      .filter-button {
+        padding: 8px 16px;
+        margin-right: 10px;
+        background-color: #eee;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .filter-button.active {
+        background-color: #ccc;
+      }
+      </style>
+</head>
+<body>
+    <div class="filter-buttons">
+        <button class="filter-button active" data-filter="all">All</button>
+        <button class="filter-button" data-filter="nature">Nature</button>
+        <button class="filter-button" data-filter="city">City</button>
+        <button class="filter-button" data-filter="people">People</button>
+      </div>
+      
+      <div class="masonry">
+        <div class="item nature"><img src="placeholder_nature.jpg" alt="Nature Image"></div>
+        <div class="item city"><img src="placeholder_city.jpg" alt="City Image"></div>
+        <div class="item nature"><img src="placeholder_nature.jpg" alt="Nature Image"></div>
+        <div class="item people"><img src="placeholder_people.jpg" alt="People Image"></div>
+        <div class="item city"><img src="placeholder_city.jpg" alt="City Image"></div>
+        <!-- Add more items with appropriate categories -->
+      </div>
+      
+        <!-- Add more items with appropriate categories -->
+      </div>
+      
+      <script>document.addEventListener('DOMContentLoaded', function () {
+        const filterButtons = document.querySelectorAll('.filter-button');
+        const items = document.querySelectorAll('.item');
+      
+        filterButtons.forEach(button => {
+          button.addEventListener('click', function () {
+            const filterValue = this.getAttribute('data-filter');
+      
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+      
+            items.forEach(item => {
+              if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                item.style.display = 'block';
+              } else {
+                item.style.display = 'none';
+              }
+            });
+      
+            // Force re-layout to trigger transition effect
+            document.querySelector('.masonry').offsetHeight;
+          });
+        });
+      });
+      </script>
+</body>
+</html>
