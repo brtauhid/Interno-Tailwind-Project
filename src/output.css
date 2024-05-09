@@ -1099,12 +1099,36 @@ video {
   background-image: url('/src/images/hero-bg.png');
 }
 
+.bg-\[url\(\'\/src\/images\/pricingBG\.jpg\'\)\] {
+  background-image: url('/src/images/pricingBG.jpg');
+}
+
 .bg-\[url\(\'\/src\/images\/serviceBg\.jpg\'\)\] {
   background-image: url('/src/images/serviceBg.jpg');
 }
 
 .bg-\[url\(\'\/src\/images\/single-service-bg\.png\'\)\] {
   background-image: url('/src/images/single-service-bg.png');
+}
+
+.bg-\[url\(\'\/src\/images\/pricingBg\.jpg\'\)\] {
+  background-image: url('/src/images/pricingBg.jpg');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/src\/images\/pricingBg\.png\'\)\] {
+  background-image: url('/src/images/pricingBg.png');
+}
+
+.bg-\[url\(\'\/src\/images\/projectDetailsBg\.png\'\)\] {
+  background-image: url('/src/images/projectDetailsBg.png');
+}
+
+.bg-\[url\(\'\/src\/images\/ProjectDetailsImg\.png\'\)\] {
+  background-image: url('/src/images/ProjectDetailsImg.png');
 }
 
 .bg-cover {
