@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Border Right with After Pseudo-element</title>
+<style>
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative; /* Required for pseudo-element */
+  }
+
+  .box::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    right: -30px;
+    height: 100%; /* Full height of the box */
+    width: 2px; /* Adjust this to change the width of the border */
+    background-color: black; /* Border color */
+  }
+</style>
+</head>
+<body>
+
+<div class="box">
+  <!-- Content goes here -->
+</div>
+
+</body>
+</html>
