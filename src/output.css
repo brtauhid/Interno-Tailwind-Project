@@ -652,6 +652,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mb-\[27px\] {
   margin-bottom: 27px;
 }
@@ -1079,6 +1083,10 @@ video {
   background-image: url('/src/images/AboutPattern.png');
 }
 
+.bg-\[url\(\'\/src\/images\/ProjectDetailsImg\.png\'\)\] {
+  background-image: url('/src/images/ProjectDetailsImg.png');
+}
+
 .bg-\[url\(\'\/src\/images\/about-banner\.png\'\)\] {
   background-image: url('/src/images/about-banner.png');
 }
@@ -1099,8 +1107,12 @@ video {
   background-image: url('/src/images/hero-bg.png');
 }
 
-.bg-\[url\(\'\/src\/images\/pricingBG\.jpg\'\)\] {
-  background-image: url('/src/images/pricingBG.jpg');
+.bg-\[url\(\'\/src\/images\/pricingBg\.png\'\)\] {
+  background-image: url('/src/images/pricingBg.png');
+}
+
+.bg-\[url\(\'\/src\/images\/projectDetailsBg\.png\'\)\] {
+  background-image: url('/src/images/projectDetailsBg.png');
 }
 
 .bg-\[url\(\'\/src\/images\/serviceBg\.jpg\'\)\] {
@@ -1111,28 +1123,12 @@ video {
   background-image: url('/src/images/single-service-bg.png');
 }
 
-.bg-\[url\(\'\/src\/images\/pricingBg\.jpg\'\)\] {
-  background-image: url('/src/images/pricingBg.jpg');
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'\/src\/images\/pricingBg\.png\'\)\] {
-  background-image: url('/src/images/pricingBg.png');
-}
-
-.bg-\[url\(\'\/src\/images\/projectDetailsBg\.png\'\)\] {
-  background-image: url('/src/images/projectDetailsBg.png');
-}
-
-.bg-\[url\(\'\/src\/images\/ProjectDetailsImg\.png\'\)\] {
-  background-image: url('/src/images/ProjectDetailsImg.png');
-}
-
 .bg-cover {
   background-size: cover;
+}
+
+.bg-right {
+  background-position: right;
 }
 
 .bg-no-repeat {
@@ -1164,6 +1160,11 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .px-\[61px\] {
   padding-left: 61px;
   padding-right: 61px;
@@ -1174,9 +1175,19 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .py-\[27px\] {
   padding-top: 27px;
   padding-bottom: 27px;
+}
+
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .pt-10 {
@@ -1236,6 +1247,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
