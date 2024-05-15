@@ -10,6 +10,10 @@
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="/src/css/swiper.min.css">
   <style>
+    img{
+      width: 100%;
+    }
+
     h1,h2,h3,h4,h5,h6{
        font-family: "DM Serif Display", serif;
     }
@@ -61,39 +65,40 @@
   <h2 class="mb-[34px] w-[750px] text-[35px] text-center">I like an interior that defies labeling. I don't really want someone to walk into a room and know that I did it</h2>
   <p>-BUNNY WILLIAMS</p>
 </section>
+
 <!-- What we do section -->
-  <section class="what-we-do">
-    <div class="wwd-left">
-      <h2>What We Do</h2>
-      <p>It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
-      <div class="wwd-btn">
-        <a href="" class="bg-[#292F36] px-[61px] text-lg font-semibold py-[27px] rounded-3xl inline-block text-white">Our Concept <i class="fa-solid fa-arrow-right ml-3" style="color: #CDA274;"></i></a>
+  <section class="what-we-do flex w-[1200px] mx-auto mb-[150px]">
+    <div class="wwd-left pt-[21px]  w-[500px]">
+      <h2 class="mb-[23px] text-[50px]">What We Do</h2>
+      <p class="text-[22px]">It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
+      <div class="wwd-btn mt-[41px]">
+        <a href="" class="bg-[#292F36] px-[50px] text-lg font-semibold py-[24px] rounded-3xl inline-block text-white">Our Concept <i class="fa-solid fa-arrow-right ml-3" style="color: #CDA274;"></i></a>
       </div>
-    <div class="wwd-right">
-      <img src="/src/images/about1.png" alt="">
     </div>
-  </div>
+    <div class="wwd-right ml-[41px]">
+      <img class="w-[670px] h-[377px]" src="/src/images/about1.png" alt="">
+    </div>
 </section>
 <!-- The end result section -->
-<section class="the-end-result">
-  <div class="ter-left">
-    <img src="/src/images/about2.png" alt="">
+<section class="the-end-result flex w-[1200px] mx-auto">
+  <div class="ter-left mr-[41px]">
+    <img class="w-[670px] h-[377px]" src="/src/images/about2.png" alt="">
   </div>
-  <div class="ter-right">
-    <h2>The end result</h2>
-    <p>It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
-    <div class="ter-btn">
-      <a href="" class="bg-[#292F36] px-[61px] text-lg font-semibold py-[27px] rounded-3xl inline-block text-white">Our Portfolio <i class="fa-solid fa-arrow-right ml-3" style="color: #CDA274;"></i></a>
+  <div class="ter-right pt-[21px] w-[500px]">
+    <h2 class="mb-[23px] text-[50px]">The end result</h2>
+    <p class="text-[22px]">It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
+    <div class="ter-btn mt-[41px]">
+      <a href="" class="bg-[#292F36] px-[50px] text-lg font-semibold py-[24px] rounded-3xl inline-block text-white">Our Concept <i class="fa-solid fa-arrow-right ml-3" style="color: #CDA274;"></i></a>
     </div>
 </div>
 </section>
 <!-- People review section -->
-<section class="people-review">
-  <div class="pr-wrapper">
-    <h1>What the People Thinks About Us</h1>
-    <div class="review-wrapper">
+<section class="people-review mt-[200px] w-[1200px] mx-auto">
+  <div class="pr-wrapper w-full ">
+    <h1 class="text-[50px] w-[547px] mb-[40px] text-center mx-auto">What the People Thinks About Us</h1>
+    <div class="review-wrapper flex justify-between w-full ">
       <!--Review Flip Card 1 -->
-      <div class="single-flip-card">
+      <div class="single-flip-card w-[283px]">
         <div class="flip-card-inner">
             <div class="flip-card-front">
                 <img src="/src/images/flip1.png" alt="">
@@ -112,7 +117,7 @@
         </div>
     </div>
       <!--Review Flip Card 2 -->
-      <div class="single-flip-card">
+      <div class="single-flip-card w-[283px]">
         <div class="flip-card-inner">
             <div class="flip-card-front">
                 <img src="/src/images/flip2.png" alt="">
@@ -131,7 +136,26 @@
         </div>
     </div>
       <!--Review Flip Card 3 -->
-      <div class="single-flip-card">
+      <div class="single-flip-card w-[283px]">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="/src/images/flip3.png" alt="">
+            </div>
+            <div class="flip-card-back">
+                <h2>Nattasha Julie</h2>
+                <p>Design, Australia</p>
+                <div class="flip-social-icons">
+                  <p>Icon</p>
+                  <p>Icon</p>
+                  <p>Icon</p>
+                  <p>Icon</p>
+                </div>
+                <p>+1 (378) 400-1234<br>julie@email.com</p>
+            </div>
+        </div>
+    </div>
+      <!--Review Flip Card 4 -->
+      <div class="single-flip-card w-[283px]">
         <div class="flip-card-inner">
             <div class="flip-card-front">
                 <img src="/src/images/flip3.png" alt="">
@@ -153,21 +177,21 @@
   </div>
 </section>
 <!-- About contact form section -->
-<section class="about-contact-form">
-  <div class="acf-wrapper">
-    <h1>Creative project? Let's have a productive talk.</h1>
-    <form action="">
-      <input type="text" placeholder="Name">
-      <input type="text" placeholder="Email">
-      <textarea name="" placeholder="Hello I'm Interested in.." id=""></textarea>
+<section class="about-contact-form mt-[200px] w-[800px] mx-auto text-center ">
+  <div class="acf-wrapper w-full">
+    <h1 class="text-center text-[50px] mb-[77px]">Creative project? Let's have a productive talk.</h1>
+    <form action="" class="w-full text-center border-none">
+      <input class="w-[380px] border-b-[1px] border-black" type="text" placeholder="Name">
+      <input class="w-[380px] border-b-[1px] border-black" type="text" placeholder="Email"> <br>
+      <textarea class="w-[760px] h-[200px] mt-24  border-b-[1px] border-black" name="" placeholder="Hello I'm Interested in.." id=""></textarea>
     </form>
     <div class="acf-btn">
-      <a href="" class="bg-[#292F36] px-[61px] text-lg font-semibold py-[27px] rounded-3xl inline-block text-white">Our Concept <i class="fa-solid fa-arrow-right ml-3" style="color: #CDA274;"></i></a>
+      <a href="" class="bg-[#292F36] mt-[77px] text-center px-[61px] text-lg font-semibold py-[27px] rounded-3xl inline-block text-white">Send Now <i class="fa-solid fa-arrow-right ml-3" style="color: #CDA274;"></i></a>
     </div>
   </div>
 </section>
 <!-- Footer section -->
-  <section class="footer mt-52 bg-gray-500">
+  <section class="footer mt-52">
     <div class="footer-wrap w-[1200px] h-[370px] flex justify-between mx-auto">
       <!-- Footer item 1 -->
       <div class="footer-1 w-[400px]">
